@@ -4,77 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Adarsh Balika</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Welcome to Swetabh's component library </h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
-
-    <hr >
-
-    <h2>@typography</h2>
-
-    <h1> This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap and the end like a paragraph</p>
-    <small>This is relatively smaller text</small>
-    <hr>
-
-    <h2>@Container</h2>
-    <h3>@fluid container</h3>
-    <div>This is a fluid container and it will go till end of the page</div>
-    <h3>@center container</h3>
-    <div>This is a centred container and it will go till the specified witdth</div>
-    <hr >
+    <nav class= "navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet">
+            <li class= "list-item-inline">
+                <a class="link link-active" href ="/">home</a>
+            </li>
+            <li class= "list-item-inline"><a class="link" href ="/projects.html">projects</a>
+            </li>
+           
+            <li class= "list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
 
 
-    <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-    <hr>
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-
-    </ul>
-    <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-
-
-
-    </ul>
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-
-
-    </ol>
-    <hr>
-    <h2>@Nav</h2>
-
-
+    </nav>
    
+    <header class="hero">
+        <img class="hero-image" src="images/hero2.svg" />
+        <h1 class="hero-heading">Swetabh Kumar  <span class="heading-inverted">The Web Developer</span></h1>
+    </header>
+    <section class="section ow">
+        <div class= "container-center">
+        
+        <h1>technologies</h1>
+    <p>
+        I am learning web development from @neogcamp. I have completed 3 lectures in level0. This is my mark4 assignment where i learnt HTML and CSS.
+    </p>
 
+
+        </div>
+        
+    </section>
+   
+    <section class="section">
+        <div class="container-center">
+            <h1>projects</h1>
+        <p>All my completed/pending projects will be shown here.</p>
+
+        </div>
+        <a class=" link link-primary" href="/projects.html">see projects</a>
+        
+    </section>
+    
+    
+    <section class="section ow">
+        <div class="container-center">
+            <h1>blogs</h1>
+        <p>This will have white background</p>
+
+        </div>
+        <a class=" link link-primary" href="/blogs.html">browse blogs</a>
+        
+    </section>
+    
+   
+    
+    
+    
+    <footer class="footer">
+        
+        <div class="footer-header">social media presence</div>
+        <ul class = "social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/swetabhlearns" title="External link opens in new tab" target="_blank">github</a>
+           
+        </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/SwetabhLearn" title="External link opens in new tab"  target="_blank">twitter</a>
+            </li>
+            
+                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/swetabh-kumar-94a78a208/" title="External link opens in new tab"  target="_blank">linkedIN</a>
+        </ul>
+    </footer>
+
+
+  
     
 
 
 
 
 
-
-
-    <div style="height: 30vh;">
+    <div style="height: 0vh;">
     </div>
-
 </body>
 </html>
